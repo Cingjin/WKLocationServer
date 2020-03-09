@@ -17,6 +17,7 @@
 		9631BF4E2416421F0016002A /* WKLocationServerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9631BF4D2416421F0016002A /* WKLocationServerDemoTests.m */; };
 		9631BF592416421F0016002A /* WKLocationServerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9631BF582416421F0016002A /* WKLocationServerDemoUITests.m */; };
 		9631BF69241642440016002A /* WKLocationServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9631BF67241642440016002A /* WKLocationServer.m */; };
+		9631BF6C241649D10016002A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631BF6B241649D10016002A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9631BF5A2416421F0016002A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9631BF67241642440016002A /* WKLocationServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKLocationServer.m; sourceTree = "<group>"; };
 		9631BF68241642440016002A /* WKLocationServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKLocationServer.h; sourceTree = "<group>"; };
+		9631BF6B241649D10016002A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9631BF6C241649D10016002A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +94,7 @@
 				9631BF4C2416421F0016002A /* WKLocationServerDemoTests */,
 				9631BF572416421F0016002A /* WKLocationServerDemoUITests */,
 				9631BF2F2416421E0016002A /* Products */,
+				9631BF6A241649D10016002A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +152,14 @@
 				9631BF67241642440016002A /* WKLocationServer.m */,
 			);
 			path = WKLocationServer;
+			sourceTree = "<group>";
+		};
+		9631BF6A241649D10016002A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9631BF6B241649D10016002A /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
