@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "WKLocationServer"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "WKWebView解析定位，获取用户所在地区"
   spec.description  = <<-DESC
                         WKWebView解析定位，获取用户所在地区
