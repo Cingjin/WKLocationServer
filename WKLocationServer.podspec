@@ -14,11 +14,11 @@ Pod::Spec.new do |spec|
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
-  spec.author             = { "yuxingjin" => "15327288437@163.com" }
+  spec.author       = { "Cingjin" => "15327288437@163.com" }
 
   spec.source       = { :git => "https://github.com/Cingjin/WKLocationServer.git", :tag => "#{spec.version}" }
 
-  spec.source_files = "LocationServer/**/*.{h,m}"
+  spec.source_files = "WKLocationServer/**/*.{h,m}"
 
   s.requires_arc    = true
 
