@@ -20,6 +20,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files = "WKLocationServer/**/*.{h,m}"
 
-  s.requires_arc    = true
+  spec.requires_arc = true
 
 end
