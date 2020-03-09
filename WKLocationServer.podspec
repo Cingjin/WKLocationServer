@@ -16,6 +16,8 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "Cingjin" => "15327288437@163.com" }
 
+  spec.platform     = :ios,'8.0'
+
   spec.source       = { :git => "https://github.com/Cingjin/WKLocationServer.git", :tag => "#{spec.version}" }
 
   spec.source_files = "WKLocationServer/**/*.{h,m}"
