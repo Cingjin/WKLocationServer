@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Cingjin/WKLocationServer.git", :tag => "#{spec.version}" }
 
-  spec.source_files = "WKLocationServer/**/*.{h,m}"
+  spec.source_files = "WKLocationServer/*.{h,m}"
 
   spec.requires_arc = true
 
