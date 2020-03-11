@@ -29,7 +29,6 @@ typedef void(^LocationResultBlock)(NSString  * locationAreaStr,NSString * locati
 
 @interface WKLocationServer : NSObject
 
-
 +(WKLocationServer *)shareInstance;
 
 - (instancetype)init UNAVAILABLE_ATTRIBUTE;
