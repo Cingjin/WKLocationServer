@@ -243,7 +243,7 @@ static WKLocationServer * _instance = nil;
                 [self performSelector:@selector(location_TimeOutBlock) withObject:self afterDelay:self.timeOut inModes:@[NSRunLoopCommonModes]];
             }
         } else {
-            [self location_result:@"失败" success:YES way:@"NOWAY"];
+            [self location_result:@"失败" success:YES way:@"NONETWORK"];
         }
     }
 }
@@ -368,7 +368,7 @@ static WKLocationServer * _instance = nil;
         return;
     }
     self.isSuccess = YES;
-    [self location_result:@"失败" success:YES way:@"NOWAY"];
+    [self location_result:@"失败" success:YES way:@"TIMEOUT"];
 }
 
 
